@@ -1,6 +1,7 @@
-Name=input()
-Score=int(input())
-Department=input()
-print("My name is "+Name)
-print("My score is "+str(Score/10),"/10")
-print("My department is "+Department)
+dictt ={
+    "Name" : "Raju",
+    "Age" : 21,
+    "Vehicle" : ["Royal Enfield","Scooty"]
+}
+x=dictt["Vehicle"]
+print(x)
