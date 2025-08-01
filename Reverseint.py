@@ -1,0 +1,5 @@
+num=int(input())
+str1=str(num)
+rev_str=''.join(reversed(str1))
+b=int(rev_str)
+print(b)
